@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.images {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  height: 400px;
+  margin: 20px;
+  transition: border-radius 0.6s ease;
+}
+
+.buttons {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  padding: 25px;
+  margin: 20px;
+  border-radius: 8%;
+  background-color: antiquewhite;
+  border-radius: none;
+  font-size: medium;
+}
+
+.round-clicked {
+  border-radius: 50%;
+}
